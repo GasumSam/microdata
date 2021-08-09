@@ -16,6 +16,8 @@ import perk3Img from "../images/friendly-staff.svg"
 import { IconContext } from "react-icons"
 import { MdDone, MdClear } from "react-icons/md"
 
+import CookieConsent from "react-cookie-consent"
+
 const HomePage = () => {
   return (
     <>
@@ -112,6 +114,13 @@ const HomePage = () => {
         title="Contact Startup today and see how we can help your business grow"
         subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
       />
+      <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics">
+          This site uses cookies ...
+      </CookieConsent>
     </>
   )
 }
