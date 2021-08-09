@@ -118,7 +118,7 @@ const HomePage = () => {
           location="bottom"
           buttonText="Accept"
           declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-analytics">
+          cookieName="gatsby-plugin-gdpr-cookies">
           This site uses cookies ...
       </CookieConsent>
     </>
