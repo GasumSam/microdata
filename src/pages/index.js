@@ -116,10 +116,22 @@ const HomePage = () => {
       />
       <CookieConsent
           location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-plugin-gdpr-cookies">
-          This site uses cookies ...
+          buttonText="Sure man!!"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#61D5E6" }}
+          buttonStyle={{ background: "#ffc644", color: "#4e503b", fontSize: "13px" }}
+          expires={150}
+          onAccept={() => {
+            alert("Accept wass triggered by clicking the Accept button");
+          }}
+          enableDeclineButton
+          onDecline={() => {
+            alert("nay!"); 
+          }}
+          debug={true}>
+          <span style={{ fontSize: "10px", color: "#4e503b" }}>This website uses cookies to enhance the user experience.{" "}</span>
+          <span style={{ fontSize: "10px", color: "#ff0000" }}>This bit of text is smaller </span>
+          
       </CookieConsent>
     </>
   )

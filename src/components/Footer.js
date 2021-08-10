@@ -46,6 +46,9 @@ const Footer = ({ Logo }) => {
             <a className="telephone" href="tel:+0034619000916">
               +34619000916
             </a>
+            <a className="email" href="mailto:microdata.ai@gmail.com">
+              microdata.ai@gmail.com
+            </a>
           </div>
         ) : null}
 

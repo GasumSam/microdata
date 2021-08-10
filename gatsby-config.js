@@ -29,14 +29,15 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: '204470028',
+          trackingId: 'G-8GT3839DZ8',
           // Setting this parameter is optional
           anonymize: true
         },
         // Defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
+        environments: ['production']
       },
     },
+
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
