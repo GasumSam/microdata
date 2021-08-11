@@ -26,7 +26,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics-gdpr_cookies-enabled`,
+      resolve: `gatsby-plugin-google-analytics-gdpr`,
       options: {
         // The property ID; the tracking code won't be generated without it.
         trackingId: "G-8GT3839DZ8D", 
@@ -49,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-cookiehub-banner`,
       options: {
           // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
-          cookieHubId: "https://cookiehub.net/c2/246cf3fe.js",
+          cookieHubId: "246cf3fe",
           // Optional parameter (default false) - Use new v2 API.
           cookieHubV2Api: true,
           // Categories configured with CookieHub
