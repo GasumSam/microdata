@@ -8,15 +8,15 @@ export const mainMenuItems = [
     title: "home",
   },
   {
-    path: "/about",
+    path: "/#about",
     title: "about",
   },
   {
-    path: "/packages",
+    path: "/#packages",
     title: "packages",
   },
   {
-    path: "/contact",
+    path: "/#contact",
     title: "contact",
   },
 ]
