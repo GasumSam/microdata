@@ -209,7 +209,7 @@ const FooterStyles = styled.footer`
     }
 
     img {
-      max-width: 125px;
+      max-width: 180px;  // Tamaño caja logo Footer
       width: 100%;
     }
   }

@@ -11,7 +11,7 @@ const Navbar = ({ Logo }) => {
   return (
     <NavStyles>
       <div className="masthead flex-container">
-        <img src={Logo} alt="Startup Logo" />
+        <img src={Logo} alt="Logo" />
         <button
           className={isOpen ? "toggle-btn toggle-btn-active" : "toggle-btn"}
           type="button"
@@ -60,7 +60,7 @@ export const NavStyles = styled.nav`
       }
 
       @media (min-width: 1200px) {
-        width: 120px;
+        width: 150px;  // TAMAÑO LOGO FRONT
       }
     }
   }
@@ -92,7 +92,7 @@ export const NavStyles = styled.nav`
       a {
         text-decoration: none;
         text-transform: capitalize;
-        color: #fff;
+        color: #fff;  //Menu text color
         transition: 0.3s;
 
         &.active {

@@ -16,8 +16,6 @@ import perk3Img from "../images/friendly-staff.svg"
 import { IconContext } from "react-icons"
 import { MdDone, MdClear } from "react-icons/md"
 
-import CookieConsent from "react-cookie-consent"
-
 const HomePage = () => {
   return (
     <>
