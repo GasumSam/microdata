@@ -31,7 +31,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it.
         trackingId: "G-8GT3839DZ8D", 
         // Optional parameter (default false) - Enable analytics in development mode.
-        enableDevelopment: true, // default false
+        enableDevelopment: false, // default false
         // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
         anonymizeIP: true,
         // Optional parameter (default false) - Starts google analytics with cookies enabled. In some countries (such as Germany) this is not allowed.
