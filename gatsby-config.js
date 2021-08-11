@@ -26,7 +26,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics-gdpr`,
+      resolve: `gatsby-plugin-google-analytics-gdpr_cookies-enabled`,
       options: {
         // The property ID; the tracking code won't be generated without it.
         trackingId: "G-8GT3839DZ8D", 
@@ -45,7 +45,26 @@ module.exports = {
         }
       },
     },
+    {
+      resolve: `gatsby-plugin-cookiehub-banner`,
+      options: {
+          // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
+          cookieHubId: "246cf3fe",
+          // Optional parameter (default false) - Use new v2 API.
+          cookieHubV2Api: true,
+          // Categories configured with CookieHub
+          categories: [
+          { 
+              categoryName: 'Analytics', // Unique id of the category which is set by Cookiehub.
+              cookieName: 'gatsby-plugin-google-analytics-gdpr_cookies-enabled' // Your custom cookie name
+          }
+          ]
+      }
+  },
+    
 
+
+    
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

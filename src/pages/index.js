@@ -114,25 +114,7 @@ const HomePage = () => {
         title="Contact Startup today and see how we can help your business grow"
         subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
       />
-      <CookieConsent
-          location="bottom"
-          buttonText="Sure man!!"
-          cookieName="myAwesomeCookieName2"
-          style={{ background: "#61D5E6" }}
-          buttonStyle={{ background: "#ffc644", color: "#4e503b", fontSize: "13px" }}
-          expires={150}
-          onAccept={() => {
-            alert("Accept wass triggered by clicking the Accept button");
-          }}
-          enableDeclineButton
-          onDecline={() => {
-            alert("nay!"); 
-          }}
-          debug={true}>
-          <span style={{ fontSize: "10px", color: "#4e503b" }}>This website uses cookies to enhance the user experience.{" "}</span>
-          <span style={{ fontSize: "10px", color: "#ff0000" }}>This bit of text is smaller </span>
-          
-      </CookieConsent>
+
     </>
   )
 }
