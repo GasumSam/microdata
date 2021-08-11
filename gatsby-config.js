@@ -49,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-cookiehub-banner`,
       options: {
           // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
-          cookieHubId: "246cf3fe",
+          cookieHubId: "https://cookiehub.net/c2/246cf3fe.js",
           // Optional parameter (default false) - Use new v2 API.
           cookieHubV2Api: true,
           // Categories configured with CookieHub
