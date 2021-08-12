@@ -44,7 +44,7 @@ const Footer = ({ Logo }) => {
               29640 Fuengirola MÁLAGA
             </address>
             <a className="telephone" href="tel:+0034619000916">
-              +34619000916
+              +34 619 000 916
             </a>
             <br />
             <a className="email" href="mailto:microdata.ai@gmail.com">
