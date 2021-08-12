@@ -37,7 +37,7 @@ const Footer = ({ Logo }) => {
               </Link>
             )}
             <address>
-              Avda. Juan Gómez Juanito,6
+              Avda. Juan Gómez Juanito, 6
               <br />
               Edif. Beneco 4C
               <br />

@@ -32,20 +32,20 @@ const HomePage = () => {
       <TextBlockImg
         id="perks"
         title="Welcome to MAI concept"
-        subtitle="Researching everyday life from the close proximity of the citizens. Detecting main and closer future risks based on Microsociological Artificial Intelligence (MAI)."
+        subtitle="Researching everyday life from the close proximity of the citizens. Detecting main and closer ESG risks based on Microsociological Artificial Intelligence (MAI)."
       >
         <div className="flex-container trio-block">
           <Perk
             img={perk1Img}
             alt="Super fast speed increases"
             title="IA Lab"
-            content="Super-fast response times ensure your business is not affected"
+            content="Everything is to be discovered"
           />
           <Perk
             img={perk2Img}
             alt="Great savings to be made"
             title="Data Hub"
-            content="A choice of packages to suit every business type and size"
+            content="Everything is to be shared"
           />
         </div>
       </TextBlockImg>
@@ -70,7 +70,7 @@ const HomePage = () => {
                 New variables exploring
               </li>
               <li>
-                <MdDone />Arquitecture
+                <MdDone />Data Arquitecture
               </li>
             
             </ul>
@@ -109,8 +109,8 @@ const HomePage = () => {
       </Packages>
       <Contact
         id="contact"
-        title="Contact Startup today and see how we can help your business grow"
-        subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
+        title="Glad to meet you"
+        subtitle="Interested in getting to know Microdata.ai? It's just the first step to believing in our impact"
       />
 
     </>

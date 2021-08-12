@@ -97,7 +97,7 @@ const ContactWrapper = styled.section`
 
         &.button-area {
           text-align: center;
-          margin-bottom: 0;
+          margin-bottom: 40px;
         }
       }
 

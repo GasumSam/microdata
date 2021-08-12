@@ -1,6 +1,6 @@
 import React from "react"
 import { DiGithubBadge } from "react-icons/di"
-import { FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaTwitter, FaLinkedin, FaTelegram } from "react-icons/fa"
 
 export const mainMenuItems = [
   {
@@ -13,7 +13,7 @@ export const mainMenuItems = [
   },
   {
     path: "/#packages",
-    title: "packages",
+    title: "solutions",
   },
   {
     path: "/#contact",
@@ -24,13 +24,13 @@ export const mainMenuItems = [
 export const socialMenuItems = [
   {
     icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
+    url: "https://www.linkedin.com/in/josemanguzman/",
     name: "LinkedIn",
   },
   {
-    icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-    name: "Twitter",
+    icon: <FaTelegram />,
+    url: "https://t.me/microdata_ai",
+    name: "Telegram",
   },
   {
     icon: <DiGithubBadge />,
