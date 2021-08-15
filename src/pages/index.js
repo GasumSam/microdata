@@ -22,7 +22,7 @@ const HomePage = () => {
       <Banner />
       <TextBlock
         id="about"
-        title="Predict the future and understand it"
+        title="Predict the future. And comprehend it"
         paragraph="Making decisions has never been as accurate as today. Data allows us to know which is our best possible way everytime. Therefore, Data is best compass we ever had to face the two greatest challenges as planet and society: Climate Change and the Era of Accelerations. We are the only one hybrid AI team, probably. Sociologists, political scientists, urbanists, data scientists and engineers work together for a better world. Because it's not just about predicting the future, it's about understanding it too."
       >
         <Link to="perks" smooth={true} duration={500}>
