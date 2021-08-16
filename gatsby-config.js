@@ -31,7 +31,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it.
         trackingId: "G-8GT3839DZ8", 
         // Optional parameter (default false) - Enable analytics in development mode.
-        enableDevelopment: false, // default false
+        enableDevelopment: true, // default false
         // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
         anonymizeIP: true,
         // Optional parameter (default false) - Starts google analytics with cookies enabled. In some countries (such as Germany) this is not allowed.
@@ -51,7 +51,7 @@ module.exports = {
           // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
           cookieHubId: "246cf3fe",
           // Optional parameter (default false) - Use new v2 API.
-          cookieHubV2Api: true,
+          cookieHubV2Api: false,
           // Categories configured with CookieHub
           categories: [
           { 
