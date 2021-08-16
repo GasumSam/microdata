@@ -25,6 +25,7 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    /*
     {
       resolve: `gatsby-plugin-google-analytics-gdpr`,
       options: {
@@ -60,7 +61,7 @@ module.exports = {
           }
           ]
       }
-  },
+  },*/
     
 
 
